@@ -1,6 +1,8 @@
 
 # JMComic 下载器
 
+请查看 本项目中的`download.py`文件
+
 这是一个使用 Flask 框架构建的漫画下载器，利用 `jmcomic` 库从 JM 官网下载漫画章节的图片。 
 
 ## 需求
@@ -51,7 +53,7 @@
 在终端中，导航到包含代码的目录，并运行以下命令启动 Flask 服务器：
 
 ```bash
-python app.py
+python download.py
 ```
 
 默认情况下，服务器将在 `127.0.0.1:44555` 上运行。
